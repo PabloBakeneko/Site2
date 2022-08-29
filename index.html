@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script defer src="login.js"></script>
+    <link rel="icon" type="image/png" href="img/logo preta.ico"/>
+    <title>Login Ianes Tech</title>
+</head>
+<body alink="#363636" vlink="#363636" link="#363636">
+
+    <nav>
+        
+    </nav>
+    
+    <main class="container">
+        <img src="img/logo preta.png" width="200px" height="200px">
+
+        <div id="msgError"></div>
+
+        <h2>Login</h2>
+        <form action="#">
+            <div class="inputfield">
+                <label id="emailLabel" for="email">Email</label>
+                <input type="email" name="email" id="email" 
+                placeholder="Digite o seu email" required>
+            </div>
+            <div class="underline"></div>
+                <div class="inputfield">
+                    <label id="senhaLabel" for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" 
+                    placeholder="Digite sua senha" required>
+                </div>
+            <div class="underline"></div>
+
+            <input type="submit" onclick="entrar()">
+        </form>
+
+        <div class="footer">
+            <br/>
+            <span>Não tem uma conta? <a href="../cadastro/index.html">Cadastre-se</a></span>
+        </div>
+
+
+        <br/>
+        <br/>
+        <button id="Home" name="Home"><a href="../Home/index.html"> Aperte aqui para voltar <br/> para a página inicial</a></button>
+
+    </main>
+
+</body>
+</html>
